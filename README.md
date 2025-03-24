@@ -13,3 +13,13 @@ A Python script to analyze orbital weights from unfolding calculations.
    ```bash
    git clone https://github.com/aktariitkgp/unfold-orbital-analyzer.git
    cd unfold-orbital-analyzer
+
+## User Guideline
+
+1. python3 script.py System.out System.unfold_orb --element [element name] --all_atoms --all_orbitals --output output.dat
+
+2. python3 script.py System.out System.unfold_orb --element [element name] --atoms 1 2 --all_orbitals --output output.dat
+
+3. python3 script.py System.out System.unfold_orb --element [element name] --all_atoms --orbital px py --output output.dat
+
+4. python3 script.py System.out System.unfold_orb --element [element name] --atoms 3 4 --orbital dxy dxz --output output.dat
